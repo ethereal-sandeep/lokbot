@@ -56,7 +56,7 @@ class ShoppingSpider(scrapy.Spider):
         pass
 
 
-# methds
+# methods
 def parse_node(item):
     full_name = item.css('.quickLookGridItemFullName::text').extract_first()
     price = item.css('.productPrice a::text').extract_first()

@@ -1,1 +1,4 @@
+*.pyc
 *.json
+*.pyc
+lokbot/*.pyc
