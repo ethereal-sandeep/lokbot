@@ -7,7 +7,8 @@ Requirement: pip, scrapy
 
 install scrapy: pip install scrapy
 
-usage: scrapy crawl shopping -a keyword="iphone 7" -a page=2 -o output.json
+### usage: 
+`scrapy crawl shopping -a keyword="iphone 7" -a page=2 -o output.json`
 
 -a is to supply argument
 ### The first query is getting the total number of results for a given keyword.
